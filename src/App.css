@@ -1,5 +1,7 @@
 img{
   height: 3rem;
+  background-color: rgb(34, 8, 128);
+  border-radius: 25%;
 }
 .contador{
   color: aqua;
