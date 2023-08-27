@@ -12,3 +12,11 @@ img{
   display: flex;
   justify-content: center;
 }
+.ItemCount{
+  background-color: bisque;
+}
+.listado{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}

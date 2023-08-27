@@ -1,0 +1,81 @@
+
+[
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"1",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"2",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"3",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"4",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"5",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"6",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"7",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"8",
+    "imagen":"",
+    "price":100
+    },
+    
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"9",
+    "imagen":"",
+    "price":100
+    },
+    {
+    "name":"Teclados",
+    "categoria":"Perifericos",
+    "id":"10",
+    "imagen":"",
+    "price":100
+    }
+]    
