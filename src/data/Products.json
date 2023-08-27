@@ -2,80 +2,90 @@
 [
     {
     "name":"Teclados",
-    "categoria":"Perifericos",
+    "category":"Perifericos",
     "id":"1",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg",
+    "price":"$$$",
+    "stock": 3
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Mouse",
+    "category":"Perifericos",
     "id":"2",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2020/04/22/17/22/office-5079224_1280.jpg",
+    "price":"$$$",
+    "stock": 5
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Auriculares",
+    "category":"Perifericos",
     "id":"3",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2015/01/20/12/51/mobile-605422_1280.jpg",
+    "price":"$$$",
+    "stock": 30
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Tarjetas graficas",
+    "category":"Componentes",
     "id":"4",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2020/06/06/01/03/nvidia-5264914_1280.jpg",
+    "price":"$$$",
+    "stock": 25
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Microprocesadores",
+    "category":"Componentes",
     "id":"5",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2020/03/20/22/29/amd-4952189_1280.jpg",
+    "price":"$$$",
+    "stock": 18
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Discos Duros",
+    "category":"Componentes",
     "id":"6",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2016/03/23/00/55/hdd-1273984_1280.jpg",
+    "price":"$$$",
+    "stock": 17
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Memorias Ram",
+    "category":"Componentes",
     "id":"7",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2020/02/02/13/55/memory-4813085_1280.jpg",
+    "price":"$$$",
+    "stock": 15
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Placas Madres",
+    "category":"Componentes",
     "id":"8",
-    "imagen":"",
-    "price":100
+    "imagen":"https://cdn.pixabay.com/photo/2018/05/16/20/18/motherboard-3406930_1280.jpg",
+    "price":"$$$",
+    "stock": 10
     },
     
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Sillas",
+    "category":"Perifericos",
     "id":"9",
-    "imagen":"",
-    "price":100
+    "imagen":"https://i.pinimg.com/564x/a0/6a/9e/a06a9ed4df4a077ce35ad9bec4a0c52a.jpg",
+    "price":"$$$",
+    "stock": 20
     },
     {
-    "name":"Teclados",
-    "categoria":"Perifericos",
+    "name":"Monitores",
+    "category":"Perifericos",
     "id":"10",
-    "imagen":"",
-    "price":100
+    "imagen":"https://i.pinimg.com/564x/00/cb/a2/00cba23055a02e22ae3d10b80d270232.jpg",
+    "price":"$$$",
+    "stock": 11
     }
 ]    

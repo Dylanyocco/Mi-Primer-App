@@ -1,16 +1,22 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import { ItemCount } from './ItemCount';
+import { Link } from 'react-router-dom';
+
+
 export const Item = ({ product }) => (
     <Card key={product.id} style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={product.image} alt={product.name} />
+        <Card.Img variant="top" src={product.imagen} alt={product.name} />
         <Card.Body>
             <Card.Title>{product.name}</Card.Title>
             <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+            {product.category}
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <div>
+            {product.price}
+            </div>
+            <Link to={`/item/${product.id}`}><button className='boton-detalle'>Detalles</button></Link>
+            <ItemCount/>
         </Card.Body>
     </Card>
 );

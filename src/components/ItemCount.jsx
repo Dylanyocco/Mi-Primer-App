@@ -15,10 +15,12 @@ export const ItemCount = () => {
 
     return(
         <div className="ItemCount">
+            <div className="contador">
             <span onClick={handleDecreaseCount}>-</span>
             <span>{count}</span>
             <span onClick={handleIncreaseCount}>+</span>
-            <button>Agregar al carrito</button>
+            </div>
+            <button className="boton-agregar">Agregar al carrito</button>
         </div>
     );
 };

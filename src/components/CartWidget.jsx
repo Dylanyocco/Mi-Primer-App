@@ -1,2 +1,2 @@
 import card from "../assets/carrito.png";
-export const CartWidget = () =><> <img src={card}/> <span className="contador">0</span></>
+export const CartWidget = () =><> <div className="contador"><img src={card}/> <span>0</span></div></>
