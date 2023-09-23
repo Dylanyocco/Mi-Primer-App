@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useContext } from "react";
 
 const stock = 10
 

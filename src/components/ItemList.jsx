@@ -1,9 +1,9 @@
 import React from 'react';
 import { Item } from "./item.jsx"; 
-export const ItemList = ({ Products }) => {
+export const ItemList = ({ products }) => {
     return (
         <div className='listado'>
-            {Products.map((product) => (
+            {products.map((product) => (
                 <Item key={product.id} product={product} />
             ))}
         </div>

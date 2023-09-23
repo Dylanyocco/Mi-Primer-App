@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { ItemCount } from "./ItemCount";
 
-export const ItemDetail = ( { product } ) => {
+export const ItemDetail = ({ product }) => {
 
   const {addProduct} = useContext(CartContext) 
 
@@ -14,7 +14,7 @@ export const ItemDetail = ( { product } ) => {
       <img src={product.img} alt={product.titulo} />
       <div>Precio:{product.precio}</div>
       <div>Stock:{product.stock}</div>
-      <ItemCount stock={product.stock} onAdd={onAdd} className="detalles" />
+      <ItemCount onAdd={onAdd}/>
     </div>
   );
 };

@@ -7,10 +7,7 @@ import React, { useState } from 'react';
 import { Cart } from './components/Cart';
 
 function App() {
-  const [cartItems, setCartItems] = useState([]);
-  const clearCart = () => {
-    setCartItems([]);
-  };
+
 
   return (
     <CartProvider>
