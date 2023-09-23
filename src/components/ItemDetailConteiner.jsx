@@ -13,10 +13,10 @@ export const ItemDetailContainer = (props) => {
     
         const refDoc = doc(db, "Products", id);
     
-        getDoc(refDoc).then((snapshot) => {
-        setProduct({ id: snapshot.id, ...snapshot.data() });
-        });
-    }, []);
+        getDoc(refDoc).then(snapshot => {
+        setProduct({ id: snapshot.id, ...snapshot.data() })
+        })
+    }, [])
     if (!product) {
         return <div>Loading...</div>; 
     }
