@@ -1,18 +1,24 @@
 import { useState } from "react";
+import { useContext } from "react";
 
-export const ItemCount = () => {
+const stock = 10
+
+export const ItemCount = ({onAdd}) => {
     const [count, setCount] = useState(1);
-    const handleIncreaseCount = () => {
-        if (true){
-            setCount((prev) =>prev +1);
-        }
-    };
+    
     const handleDecreaseCount = () => {
         if (count > 1){
-            setCount((prev) =>prev -1);
+            setCount((prev) =>prev - 1);
             }
     };
-
+    
+    const handleIncreaseCount = () => {
+        if (stock > count){
+            setCount((prev) =>prev + 1);
+        }
+    };
+    
+    
     return(
         <div className="ItemCount">
             <div className="contador">
@@ -20,7 +26,7 @@ export const ItemCount = () => {
             <span>{count}</span>
             <span onClick={handleIncreaseCount}>+</span>
             </div>
-            <button className="boton-agregar">Agregar al carrito</button>
+            <button onClick={() => onAdd(count)}className="boton-agregar">Agregar al carrito</button>
         </div>
     );
 };

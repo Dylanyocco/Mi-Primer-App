@@ -1,9 +1,10 @@
 import { Container } from 'react-bootstrap';
 import '../App.css';
-import data from '../data/Products.json'
 import { useState,useEffect } from 'react';
 import { ItemList } from './ItemList';
 import { useParams } from 'react-router-dom';
+import { getFirestore, collection, getDocs, } from "firebase/firestore";
+
 
 export const ItemListContainer = (props) =>{
     const [Products, setProducts] = useState([]);
@@ -11,19 +12,21 @@ export const ItemListContainer = (props) =>{
 
 
     useEffect(() => {
-        const promise = new Promise((resolve, reject) => {
-            setTimeout(()=> resolve(data), 2000);
-        });
-        promise.then((data) =>{
-            if(!id){
-                setProducts(data);
-            }else{
-                const productsFiltered = data.filter(product => product.category === id
+        const db = getFirestore();
+        const refCollection = collection(db, "Products");
+    
+        getDocs(refCollection)
+            .then((snapshot) => {
+                if (snapshot.size === 0) console.log("no results");
+                else
+                    setProducts(
+                        snapshot.docs.map((doc) => {
+                            return { id: doc.id, ...doc.data() };
+                            })
                     );
-                setProducts(productsFiltered);
-            }
             });
     }, []);
+
     
     return(
     <Container>
